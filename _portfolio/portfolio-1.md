@@ -1,7 +1,13 @@
 ---
 title: "Integrated Modeling Framework"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/fig2.png'>"
+excerpt: "Coupling surface water, groundwater, paleoclimate simulators<br/><img src='/images/fig2.png' width='300' height='300'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+In developing the Integrated Modeling Framework (IMF), I've identified several key requirements: (1) interaction loops between groundwater and surface, (2) mutual influences of surface water on groundwater, (3) a dynamic climate model, (4) a water partitioning approach for recharge, and (5) calculations of groundwater changes based on previous timesteps. I initially considered three different strategies for integrating multiple models. The first involves direct code coupling for simultaneous operation with minimal external input/output. The second strategy, which I ultimately chose, uses a specially designed Python script to orchestrate the sequence of model operations, managing data exchange and processing. The third approach considered was to run each model in isolated, single-timestep operations, requiring frequent starts and stops.
+
+<img src='/images/fig2.png' width='300' height='300'>
+
+This chosen second strategy allows for efficient model maintenance and operation. The Python script, or 'binder', acts as a bridge between various programs, overseeing the entire process of data exchange, model execution, and handling of various inputs and outputs. This binder also introduces necessary input variables not originally included in the Landscape Evolution Model (LEM), like the number of layers in the z-direction.
+
+In the IMF process, the LEM is first activated with inputs that can be modified by the user, such as tectonic shifts, landscape boundaries, and rock properties. This step sets the stage for applying tectonic movements for each timestep and leads into the computation of hydrological changes. Next, the PaleoClimate Model (PCM) is used to manage groundwater recharge and to calculate precipitation-driven runoff for each cell. It's important to note that recharge is applied to ground surface cells, not on top of saturated cells. At this point, the binder script steps in to use the allocated recharge in each cell to drive the LEM. Once the GroundWater Model (GWM) completes, the binder processes the groundwater data, including head distribution and flux. It then produces outputs showing each cell's coordinates and upwelling volume. This information is fed back into the LEM, which incorporates these water volumes as baseflow. Following this, the LEM's fluvial mechanics kick in, using the redistributed groundwater to erode and transport sediments. This marks the completion of one IMF cycle, yielding a comprehensive output for a single timestep.
