@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kyungdoe Han"
+title: "\Kyungdoe "Doe" Han\"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
