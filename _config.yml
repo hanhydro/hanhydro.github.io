@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kyungdoe Han / Hydrologist"
+title                    : "Kyungdoe ''Doe'' Han / Hydrologist"
 title_separator          : "-"
 name                     : &name "Kyungdoe Han"
 description              : &description "Hydrologist"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kyungdoe Doe Han"
+  name             : "Kyungdoe ''Doe'' Han"
   avatar           : "Doe_profile.jpg"
   bio              : "Integrated numerical modeler (surface water - groundwater - landscape evolution)"
   location         : "Madison, WI"
