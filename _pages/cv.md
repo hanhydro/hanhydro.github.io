@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in Earth System Sciences, Yonsei University, 2009
+* Ph.D in Hydrology, New Mexico Institute of Mining and Technology, 2023
+* M.S. in Computer Science, Georgia Institute of Technology, 2025 (expected)
 * M.S. in Geosciences, University of Wisconsin-Milwaukee, 2016
-* Ph.D in Hydrology, New Mexico Institute of Mining and Technology, 2023 (expected)
+* B.S. in Earth System Sciences, Yonsei University, 2009
+
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2023-present: Postdoctoral Research Associate
+  * University of Wisconsin-Madison
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016-2023: Research and Teaching Assistant
+  * New Mexico Institute of Mining and Technology
+
   
 Skills
 ======
