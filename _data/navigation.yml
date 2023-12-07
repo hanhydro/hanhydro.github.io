@@ -14,6 +14,9 @@ main:
         
   - title: "Posts"
     url: /year-archive/
+
+  - title: "CV"
+    url: /gallery/
     
   - title: "CV"
     url: /cv/
