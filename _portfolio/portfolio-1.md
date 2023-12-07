@@ -1,6 +1,6 @@
 ---
 title: "Integrated Modeling Framework"
-excerpt: "Coupling surface water, groundwater, paleoclimate simulators<br/><img src='/images/fig2.png' width='300' height='300'>"
+excerpt: "Coupling tectonics, landscape evolution, surface water, groundwater, paleoclimate simulators<br/><img src='/images/fig2.png' width='300' height='300'>"
 collection: portfolio
 ---
 
