@@ -8,7 +8,7 @@ date: 2015-01-10
 location: "Milwaukee, WI 53211"
 ---
 
-•	Revision of course materials
-•	Created exam problems and graded exams
-•	Supervised lab experiments and in-class numerical models
-•	Created and delivered lectures on numerical modeling and partial differential equations
+- Revision of course materials
+- Created exam problems and graded exams
+- Supervised lab experiments and in-class numerical models
+- Created and delivered lectures on numerical modeling and partial differential equations
