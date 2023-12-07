@@ -1,7 +1,7 @@
 ---
 title: "GEO SCI 462, Physical Hydrogeology"
 collection: teaching
-type: "Workshop"
+type: "Undergrad/grad course"
 permalink: /teaching/2015-fall-teaching-1
 venue: "Department of Geoscience, University of Wisconsin-Milwaukee"
 date: 2015-08-10
