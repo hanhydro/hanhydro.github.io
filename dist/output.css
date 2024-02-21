@@ -1018,6 +1018,11 @@ video {
   line-height: 1rem;
 }
 
+.text-xxs {
+  font-size: 0.25rem;
+  line-height: 0.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
