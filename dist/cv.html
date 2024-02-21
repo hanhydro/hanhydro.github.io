@@ -88,7 +88,73 @@
     </nav>
   </header>
   <!-- Content -->
- 
+ <h1>Education</h1>
+<ul>
+  <li>Ph.D in Hydrology, New Mexico Institute of Mining and Technology, 2023</li>
+  <li>M.S. in Computer Science, Georgia Institute of Technology, 2025 (expected)</li>
+  <li>M.S. in Geosciences, University of Wisconsin-Milwaukee, 2016</li>
+  <li>B.S. in Earth System Sciences, Yonsei University, 2009</li>
+</ul>
+
+<h1>Work experience</h1>
+<ul>
+  <li>2023-present: Postdoctoral Research Associate
+    <ul>
+      <li>University of Wisconsin-Madison</li>
+    </ul>
+  </li>
+  <li>2016-2023: Research and Teaching Assistant
+    <ul>
+      <li>New Mexico Institute of Mining and Technology</li>
+    </ul>
+  </li>
+</ul>
+
+<h1>Skills</h1>
+<ul>
+  <li>Skill 1</li>
+  <li>Skill 2
+    <ul>
+      <li>Sub-skill 2.1</li>
+      <li>Sub-skill 2.2</li>
+      <li>Sub-skill 2.3</li>
+    </ul>
+  </li>
+  <li>Skill 3</li>
+</ul>
+
+<h1>Publications</h1>
+<ul>
+
+  {% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
+
+<h1>Talks</h1>
+<ul>
+
+  {% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}
+</ul>
+
+<h1>Teaching</h1>
+<ul>
+
+  {% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
+
+<h1>Professional Certification</h1>
+
+
+<h1>Service and leadership</h1>
+<ul>
+  <li>Currently signed in to 43 different slack teams</li>
+</ul>
+
   <!-- Footer -->
   <footer>
     <div class="max-w-screen-xl py-16 mx-auto">
