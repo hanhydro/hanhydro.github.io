@@ -9,23 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Kyungdoe "Doe" Han
 ======
-* Ph.D in Hydrology, New Mexico Institute of Mining and Technology, 2023
+* Postdoctoral Research Associate, Department of Civil and Environmental Engineering, University of Wisconsin-Madison (advisor: Steven P. Loheide)
+* Ph.D in Hydrology, Department of Earth and Environmental Science, New Mexico Institute of Mining and Technology (advisor: John L. Wilson)
 
-Work experience
+Skillset
 ======
-* 2023-present: Postdoctoral Research Associate
-  * University of Wisconsin-Madison
-
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Groundwater model
+* Landscape evolution model
+* Reactive transport model
+* Integration of numerical models
+* Weather forecast
+* Hardware and firmware design of environmental monitoring systems
+  * In-situ optical vegetation measurements
+  * Integrated urban environment monitoring systems
 
 Publications
 ======
