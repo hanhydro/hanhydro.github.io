@@ -14,8 +14,8 @@ main:
   - title: "Research"
     url: /portfolio/
         
-  - title: "Agrivoltaics"
-    url: /year-archive/
+#  - title: "Agrivoltaics"
+#    url: /year-archive/
     
   - title: "CV"
     url: /cv/
