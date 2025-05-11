@@ -1,6 +1,6 @@
 ---
 title: "What's in my field toolbox?"
-excerpt: "Overview of my own field hydrology survey tools<br/><img src='/images/500x300.png'>"
+excerpt: "Overview of my own field hydrology survey tools<br/><img src='/images/IMG_8672.jpeg'>"
 collection: portfolio
 ---
 
