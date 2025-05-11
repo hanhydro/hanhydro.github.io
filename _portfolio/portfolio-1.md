@@ -4,4 +4,5 @@ excerpt: "Overview of my own field hydrology survey tools<br/><img src='/images/
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+I aim to always be prepared for an impromptu field trip, regardless of its purpose, whether it's water quality monitoring, soil sampling, or groundwater pumping. I keep as much equipment as possible in my small vehicle, since I often don’t know the exact nature of the task until the moment it arises, except in cases where the equipment is sensitive to thermal degradation or failure. I own a comprehensive suite of hydrologic instruments that allows me to conduct research in a variety of field conditions. While the initial investment was substantial, having my own equipment enables me to carry out research with little or no external funding.
+
